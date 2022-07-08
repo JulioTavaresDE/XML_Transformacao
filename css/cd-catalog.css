@@ -1,0 +1,26 @@
+/* 
+Gestaltung von XML ist sehr mühselig,
+wenn es nur mit CSS gemacht wird.
+
+* { display: block;}
+
+CD { border: 1px solid red; margin: 5px 30px; }
+
+ARTIST::before {
+    content: "Künstler: ";
+    color: red;
+    font-weight: bold;
+} 
+
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid blue;
+}
+table { border-collapse: collapse; }
+
+th, td { text-align: left; padding: 0.2rem 0.3rem; }
